@@ -36,7 +36,7 @@ export default function BasicTable({ rows }) {
 						</TableCell>
 						<TableCell align="center">
 							<p className="text-white font-bold">
-								Photographers Name
+								Photographer's Name
 							</p>
 						</TableCell>
 					</TableRow>

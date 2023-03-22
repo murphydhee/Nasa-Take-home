@@ -14,19 +14,15 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.npmjs.org/@mui/icons-material/-/icons-material-5.11.11.tgz: ESOCKETTIMEDOUT
-      at ClientRequest.<anonymous> (/Users/mac/.yarn/lib/cli.js:141517:19)
-      at Object.onceWrapper (node:events:641:28)
-      at ClientRequest.emit (node:events:527:28)
-      at TLSSocket.emitRequestTimeout (node:_http_client:771:9)
-      at Object.onceWrapper (node:events:641:28)
-      at TLSSocket.emit (node:events:539:35)
-      at TLSSocket.Socket._onTimeout (node:net:516:8)
-      at listOnTimeout (node:internal/timers:559:17)
-      at processTimers (node:internal/timers:502:7)
+  SyntaxError: /Users/mac/Personal Projects/Nasa Take home/package.json: Unexpected token g in JSON at position 0
+      at JSON.parse (<anonymous>)
+      at /Users/mac/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/mac/.yarn/lib/cli.js:310:30)
+      at /Users/mac/.yarn/lib/cli.js:321:13
 
 npm manifest: 
-  {
+  g{
     "name": "nasa-test",
     "version": "0.1.0",
     "private": true,
@@ -45,7 +41,7 @@ npm manifest:
       "react-router-dom": "^6.9.0",
       "react-scripts": "5.0.1",
       "react-toastify": "^9.1.2",
-      "web-vitals": "^2.1.4"
+      "web-vitals": "^2.1.4",
     },
     "scripts": {
       "start": "react-scripts start",
